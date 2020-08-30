@@ -60,7 +60,20 @@ print(f"Average Change: ${avg_change:.2f}")
 print(f"Greatest Increase in Profits: {max_pnl_date} (${max_pnl_increase:.0f})")
 print(f"Greatest Decreasee in Profits: {min_pnl_date} (${max_pnl_decrease:.0f})\n")
 
+#Write the results to an output file
+csv_save_path = os.path.join("analysis", "budget_analysis_output.csv")
 
+analysis_results_output = open(csv_save_path, mode = "w", newline="")
+
+csv_writer = csv.writer(analysis_results_output, delimiter=',')
+
+csv_writer.writerow(["Financial Analysis"])
+csv_writer.writerow(["----------------------------------"])
+csv_writer.writerow([f"Total Months: {total_months}"])
+csv_writer.writerow([f"Total: ${str(total_pnl)}"])
+csv_writer.writerow([f"Average Change: ${avg_change:.2f}"])
+csv_writer.writerow([f"Greatest Increase in Profits: {max_pnl_date} (${max_pnl_increase:.0f})"])
+csv_writer.writerow([f"Greatest Decreasee in Profits: {min_pnl_date} (${max_pnl_decrease:.0f})"])
 
 
 
