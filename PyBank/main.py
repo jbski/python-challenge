@@ -48,7 +48,7 @@ with open(csvpath) as csvfile:
 
     financials = list(findata)
     print(len(financials))
-    # print(financials)
+    # print(financials[0][1])
 
     pnl = []
 
@@ -58,7 +58,34 @@ with open(csvpath) as csvfile:
     total_pnl = sum(pnl)
     print(total_pnl)
 
-    max_pnl = max(pnl)
+    monthly_change = []
+    upper_range = len(financials)
+    for i in range(1,upper_range):
+        pnl_change_2 = int(financials[i][1])
+        pnl_change_1 = int(financials[i-1][1])
+        pnl_change = pnl_change_2 - pnl_change_1
+        monthly_change.append(int(pnl_change))
+
+    # print(monthly_change)
+
+    avg_change = sum(monthly_change) / len(monthly_change)
+    max_change = max(monthly_change)
+    max_decrease = min(monthly_change)
+
+    print(avg_change)
+    print(max_change)
+    print(max_decrease)
+
+    
+
+    # finstats = []
+
+    # for num in financials:
+    #     print(num[1])
+
+
+
+
 
     
 
