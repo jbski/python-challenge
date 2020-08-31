@@ -15,15 +15,11 @@ with open(csvpath) as election_datafile:
 
 # Convert the csv file data to a python object
     election_data = list(csvreader)
-    election_header = list(csv_header)
-
-    # print(election_header)
-    # print(election_data[0])
 
     # Create an empty list to hold the unique candidate names and total names
     candidate_names = []
     names = []
-    names_dct = []
+    names_all = []
     vote_pct = []
     vote_per_candidate = []
 
@@ -50,12 +46,12 @@ with open(csvpath) as election_datafile:
 
     #Create a list containing the values for candidate, vote percentage, and total votes per candidate
     for j in range(total_candidates):
-        names_dct.append(candidate_names[j])
+        names_all.append(candidate_names[j])
         vote_pct.append((names.count(candidate_names[j]) / total_votes) * 100)
         vote_per_candidate.append(names.count(candidate_names[j]))
 
     #Create a dictionary to help get the winner
-    election_dict = dict(zip(names_dct, vote_pct))
+    election_dict = dict(zip(names_all, vote_pct))
 
     winner = max(election_dict, key=election_dict.get)
     
