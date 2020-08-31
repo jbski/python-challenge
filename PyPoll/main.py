@@ -56,7 +56,7 @@ with open(csvpath) as election_datafile:
 
     #Create a dictionary to help get the winner
     election_dict = dict(zip(names_dct, vote_pct))
-    
+
     winner = max(election_dict, key=election_dict.get)
     
     #Print the results to the terminal
@@ -84,7 +84,7 @@ with open(csvpath) as election_datafile:
     csv_writer.writerow([f'Total Votes: {total_votes}'])
     csv_writer.writerow(["-----------------------------------"])
     for j in range(total_candidates):
-        csv_writer.writerow([f'{candidate_names[j]}: {(names.count(candidate_names[j]) / total_votes) * 100:.3}%  ({names.count(candidate_names[j])})'])
+        csv_writer.writerow([f'{candidate_names[j]}: {(names.count(candidate_names[j]) / total_votes) * 100:.3%}  ({names.count(candidate_names[j])})'])
 
     csv_writer.writerow(["-----------------------------------"])
 
