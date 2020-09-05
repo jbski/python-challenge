@@ -1,13 +1,13 @@
-# python-challenge
-# 08.29.20
-A Python script to analyze the financial records of a company based on a given set of financial data.
+Background:
 
-Branch Update for PyBank_Working
-New update
-Another update
+The Python-Challenge repository includes four different python scripts. Two of the scripts
 
-This is another update
-
-Still another update
+1) PyBank:
 
 
+
+2) PyPoll:
+
+
+
+3) 
