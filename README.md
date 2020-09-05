@@ -12,7 +12,7 @@ The Python-Challenge repository includes four different python scripts. Two of t
 ### 2) PyPoll:
        This Python script is used to analyze sample polling data and answer a series of questions.
             #### Link to .py files containing script
-                 ![Python Source File](./img/screenshot.png)
+                 ![Python Source File](https://github.com/jbski/python-challenge/blob/master/PyPoll/main.py)
             
             #### Link to source files
             
