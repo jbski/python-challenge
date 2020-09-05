@@ -5,16 +5,16 @@
 * [General info](#general-info)
 
 
-# Folders:
+## Folders:
 
 
 
-# 1) PyBank:
+## 1) PyBank:
 
 
 
-# 2) PyPoll:
+## 2) PyPoll:
 
 
 
-# 3) Extra Content:
+## 3) Extra Content:
