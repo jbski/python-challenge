@@ -16,7 +16,7 @@ The PyParagraph script takes a paragraph of writen text data and provides an ana
 
 
 ### Python Script Files
-(PyBank/main.py)
+*(PyBank/main.py)
 
 
 ![PyPoll Script:](PyPoll/main.py)
