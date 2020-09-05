@@ -4,10 +4,16 @@ The Python Challenge includes four Python scripts:
 ## PyBank
 The PyBank script analyzes the financial records of a company based on a CSV file consisting of "Date" and "Profit/Losses" columns.
 
-## Link to .py files containing script
+## Link to PyBank files:
 
   1. PyBank script:
   https://github.com/jbski/python-challenge/blob/master/PyBank/main.py
+  
+  2. PyBank Source File:
+  https://github.com/jbski/python-challenge/blob/master/PyBank/Resources/budget_data.csv
+  
+  3. PyBank Output File:
+  
 
     
 ## Stock Selection
