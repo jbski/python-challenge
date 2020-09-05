@@ -17,10 +17,14 @@ The PyParagraph script takes a paragraph of writen text data and provides an ana
 
 ### Python Script Files
 ![PyBank Script:](PyBank/main.py)
+
+
 ![PyPoll Script:](PyPoll/main.py)
 
 ### Extra Content Script Files
 ![PyBoss Script:](ExtraContent/PyBoss/main.py)
+
+
 ![PyParagraph Script:](ExtraContent/PyParagraph/main.py)
 
 
