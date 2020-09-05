@@ -7,7 +7,7 @@ The PyBank script analyzes the financial records of a company based on a CSV fil
 ## Link to .py files containing script
 
   1. PyBank script:
-  https://github.com/jbski/VBA-challenge/blob/master/Multiple_year_stock_data.vbs
+  https://github.com/jbski/python-challenge/blob/master/PyBank/main.py
 
     
 ## Stock Selection
