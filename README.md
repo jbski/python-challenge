@@ -16,9 +16,16 @@ The PyParagraph script takes a paragraph of writen text data and provides an ana
 
 
 ### Python Script Files
-#### PyBank:  https://github.com/jbski/python-challenge/commit/7048d5ed3794857f4523deea5eb30a3f0069d2eb
+![PyBank Script:](PyBank/main.py)
+![PyPoll Script:](PyPoll/main.py)
 
-#### PyPoll:
+### Extra Content Script Files
+![PyBoss Script:](ExtraContent/PyBoss/main.py)
+![PyParagraph Script:](ExtraContent/PyParagraph/main.py)
+
+
+
+
 
 
 
