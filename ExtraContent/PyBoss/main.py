@@ -74,9 +74,11 @@ with open(csvpath) as csvfile:
     dob = 'DOB'
     ssn = 'SSN'
     state = 'State'
+    
 
     csv_writer.writerow(f'{id},{fname},{lname},{dob},{ssn},{state}')
-
+    # csv_writer.writerow(["Emp ID", "First Name", "Last Name", "DOB", "SSN", "State"])
+    
 
     for i in range(total_employees):
         csv_writer.writerow([f'{emp_id_list[i]},{emp_fname_list[i]},{emp_lname_list[i]},{emp_dob_list[i]},{emp_ssn_list[i]},{emp_state_list[i]}'])
