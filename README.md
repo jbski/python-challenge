@@ -4,22 +4,22 @@ The Python-Challenge repository includes four different python scripts. Two of t
 
 ## Table of contents - Folders:
 
-### 1) PyBank:
-       This Python script is used to analyze the financial records of a company.  The dataset consists of two columns: "Date" and "Profit/Losses"
+### PyBank:
+### This Python script is used to analyze the financial records of a company.  The dataset consists of two columns: "Date" and "Profit/Losses"
         
 
 
-### 2) PyPoll:
-       This Python script is used to analyze sample polling data and answer a series of questions.
-            #### Link to .py files containing script
-                 ![Python Source File](https://github.com/jbski/python-challenge/blob/master/PyPoll/main.py)
+### PyPoll:
+### This Python script is used to analyze sample polling data and answer a series of questions.
+   #### Link to .py files containing script
+        Python File: https://github.com/jbski/python-challenge/blob/master/PyPoll/main.py)
             
-            #### Link to source files
+   #### Link to source files
             
-            #### Link to output files
+   #### Link to output files
             
-            #### Screenshot of results
-                 ![Python Source File](./img/screenshot.png)
+   #### Screenshot of results
+        ![Python Source File](./img/screenshot.png)
           
 
 
